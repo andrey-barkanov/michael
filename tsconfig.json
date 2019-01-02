@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "esnext",
+    "target": "es5",
+    "jsx": "react",
+    "lib": ["ES2015", "DOM", "es6"],
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "paths": {
+      "types": ["./src/types"],
+      "components": ["./src/components"],
+      "config": ["./src/config.ts"],
+      "utils": ["./src/utils"],
+      "actions": ["./src/data/actions"],
+      "service": ["./src/data/service"],
+      "sharedConstants": ["./src/constants"]
+    }
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
